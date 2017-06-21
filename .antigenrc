@@ -1,0 +1,19 @@
+source /usr/share/zsh-antigen/antigen.zsh
+
+antigen use oh-my-zsh
+
+antigen bundle ssh-agent
+antigen bundle git
+antigen bundle common-aliases
+antigen bundle git-extras
+antigen bundle wd
+antigen bundle npm
+antigen bundle git-flow
+antigen bundle docker
+antigen bundle gko/ssh-connect
+
+# Theme
+antigen theme https://github.com/caiogondim/bullet-train-oh-my-zsh-theme bullet-train
+
+antigen apply
+
