@@ -119,6 +119,7 @@ antigen bundle colorize
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle mfaerevaag/wd
+antigen bundle agkozak/zsh-z
 
 #antigen theme robbyrussell
 antigen theme romkatv/powerlevel10k
